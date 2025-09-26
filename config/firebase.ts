@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 // Firebase configuration
 // Configuration extracted from GoogleService-Info.plist
 const firebaseConfig = {
-  apiKey: "AIzaSyDdOMVBQawGW6Hp7SgZk_EgjmAiBTFDCjc",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "codebreachers-beta.firebaseapp.com",
   projectId: "codebreachers-beta",
   storageBucket: "codebreachers-beta.firebasestorage.app",
