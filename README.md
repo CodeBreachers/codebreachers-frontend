@@ -10,13 +10,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Set up environment variables
+
+   Create a `.env` file in the project root and add your Firebase API key:
+
+   ```bash
+   EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key_here
+   ```
+
+   Replace `your_firebase_api_key_here` with your actual Firebase API key from your Firebase project console.
+
+3. Start the app
 
    ```bash
    npx expo start
    ```
 
-3. Run on iOS device
+4. Run on iOS device
 
    ```bash
    npx expo run:ios --device
